@@ -7,8 +7,12 @@ import android.content.Context;
 import android.os.Build;
 import android.support.v4.app.NotificationCompat;
 
-
-
+/**
+ * Classe responsável por criar uma notificação. Cria o canal em que a intent passará
+ * e cria uma notificação que passará por esse canal.
+ *
+ * Criado por: Bruno Abe
+ * */
 public class NotificationUtil {
     private static String DEFAULT_CHANNEL_ID = "default_channel";
     private static String DEFAULT_CHANNEL_NAME = "Default";

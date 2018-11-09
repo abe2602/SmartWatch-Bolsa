@@ -26,7 +26,6 @@ public class MainActivity extends WearableActivity {
         this.recyclerViewAdapter = new Adapter(100);
 
         this.recyclerView.setEdgeItemsCenteringEnabled(true);
-        this.recyclerView.setEdgeItemsCenteringEnabled(true);
         this.recyclerView.setLayoutManager(new WearableLinearLayoutManager(this));
         this.recyclerView.setAdapter(recyclerViewAdapter);
         // Enables Always-on
